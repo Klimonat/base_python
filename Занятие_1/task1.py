@@ -1,0 +1,16 @@
+print(3+7)
+count = 1
+string = 'Hello, World!'
+print(string)
+print('Введите своё имя')
+name = input()
+print('Введите свой возраст')
+age = int(input())
+print("My name is %s" %(name))
+print("I am %.d years old" %(age))
+print('This is task № %2.d' %(count))
+print('Давайте сложим два числа. Введите первое число')
+a = input()
+print('а теперь второе число')
+b = input()
+print('Их сумма:', int(a)+int(b))
